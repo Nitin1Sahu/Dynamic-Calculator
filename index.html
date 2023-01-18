@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Dynamic-Calculator</title>
+    <title>Document</title>
   </head>
   <body>
     <div class="container">
@@ -18,114 +18,114 @@
             <input
               type="button"
               value="+"
-              class="bgcolor"
-              onclick="screen.value += '+'"
+              class="bgcolor clickSound"
+              onclick="screen.value += '+'; audio.play()"
             />
             <input
               type="button"
               value="-"
-              class="bgcolor"
-              onclick="screen.value += '-'"
+              class="bgcolor clickSound"
+              onclick="screen.value += '-'; audio.play()"
             />
             <input
               type="button"
               value="*"
-              class="bgcolor"
-              onclick="screen.value += '*'"
+              class="bgcolor clickSound"
+              onclick="screen.value += '*'; audio.play()"
             />
             <input
               type="button"
               value="/"
-              class="bgcolor"
-              onclick="screen.value += '/'"
+              class="bgcolor clickSound"
+              onclick="screen.value += '/'; audio.play()"
             />
           </div>
           <div>
             <input
               type="button"
               value="7"
-              onclick="screen.value += '7'"
-              class="bgBtn"
+              onclick="screen.value += '7'; audio.play()"
+              class="bgBtn clickSound"
             />
             <input
               type="button"
               value="8"
-              onclick="screen.value += '8'"
-              class="bgBtn"
+              onclick="screen.value += '8'; audio.play()"
+              class="bgBtn clickSound"
             />
             <input
               type="button"
               value="9"
-              onclick="screen.value += '9'"
-              class="bgBtn"
+              onclick="screen.value += '9'; audio.play()"
+              class="bgBtn clickSound"
             />
           </div>
           <div>
             <input
               type="button"
               value="4"
-              onclick="screen.value += '4'"
-              class="bgBtn"
+              onclick="screen.value += '4'; audio.play()"
+              class="bgBtn clickSound"
             />
             <input
               type="button"
               value="5"
-              onclick="screen.value += '5'"
-              class="bgBtn"
+              onclick="screen.value += '5'; audio.play()"
+              class="bgBtn clickSound"
             />
             <input
               type="button"
               value="6"
-              onclick="screen.value += '6'"
-              class="bgBtn"
+              onclick="screen.value += '6'; audio.play()"
+              class="bgBtn clickSound"
             />
           </div>
           <div>
             <input
               type="button"
               value="1"
-              onclick="screen.value += '1'"
-              class="bgBtn"
+              onclick="screen.value += '1'; audio.play()"
+              class="bgBtn clickSound"
             />
             <input
               type="button"
               value="2"
-              onclick="screen.value += '2'"
-              class="bgBtn"
+              onclick="screen.value += '2'; audio.play()"
+              class="bgBtn clickSound"
             />
             <input
               type="button"
               value="3"
-              onclick="screen.value += '3'"
-              class="bgBtn"
+              onclick="screen.value += '3'; audio.play()"
+              class="bgBtn clickSound"
             />
           </div>
           <div>
             <input
               type="button"
               value="C"
-              onclick="screen.value = ''"
-              class="bgBtn"
+              onclick="screen.value = ''; audio.play()"
+              class="bgBtn clickSound"
             />
             <input
               type="button"
               value="0"
-              onclick="screen.value += '0'"
-              class="bgBtn"
+              onclick="screen.value += '0'; audio.play()"
+              class="bgBtn clickSound"
             />
             <input
               type="button"
               value="."
-              onclick="screen.value += '.'"
-              class="bgBtn"
+              onclick="screen.value += '.'; audio.play()"
+              class="bgBtn clickSound"
             />
           </div>
           <div id="equall">
             <input
               type="button"
               value="="
-              class="bgcolor equal"
-              onclick="screen.value = eval(screen.value) "
+              class="bgcolor equal clickSound"
+              onclick="screen.value = eval(screen.value); audio.play()"
             />
           </div>
         </form>
