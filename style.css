@@ -43,7 +43,7 @@ body {
     border-radius: 10px;
     margin: 2px;
     width: 100px;
-    margin: 2px -2px;
+/*     margin: 2px -2px; */
     /* position: inherit; */
 }
 .bgcolor {
@@ -60,7 +60,7 @@ body {
     justify-content: right;
     position: relative;
     bottom: 255px;
-    margin-left: 317px;
+    margin-left: 325px;
 } 
 
 .equal {
